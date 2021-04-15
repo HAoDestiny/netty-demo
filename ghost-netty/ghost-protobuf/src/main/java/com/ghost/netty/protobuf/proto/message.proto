@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+// https://developers.google.com/protocol-buffers/docs/javatutorial
+// protoc -I=$SRC_DIR --java_out=$DST_DIR $SRC_DIR/addressbook.proto
+option java_package = "com.ghost.netty.protobuf";
+option java_outer_classname = "MessageBase";
+
+message Message {
+  string requestId = 1;
+  CommandType cmd = 2;
+  string content = 3;
+
+  enum CommandType {
+    NORMAL = 0;
+    HEARTBEAT_REQUEST = 1;
+    HEARTBEAT_RESPONSE = 2;
+  }
+}

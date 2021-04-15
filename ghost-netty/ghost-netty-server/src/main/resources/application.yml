@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: netty-server
+
+netty:
+  port: 8011
