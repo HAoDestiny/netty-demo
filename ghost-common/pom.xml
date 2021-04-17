@@ -9,14 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ghost-netty</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>ghost-netty-server</module>
-        <module>ghost-netty-client</module>
-        <module>ghost-protobuf</module>
-        <module>ghost-netty-websocket-server</module>
-    </modules>
+    <artifactId>ghost-common</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
+    </dependencies>
 </project>

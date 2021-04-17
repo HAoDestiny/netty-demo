@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>ghost-netty</module>
+        <module>ghost-common</module>
     </modules>
 
     <properties>
@@ -69,6 +70,11 @@
                 <version>${project.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.demo</groupId>
+                <artifactId>ghost-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
