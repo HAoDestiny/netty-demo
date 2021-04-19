@@ -5,10 +5,10 @@ netty-demo
 ├── ghost-common          // 公共模块 
 ├── ghost-protobuf        // 编码模块
 ├── ghost-netty          
-│       └── ghost-netty-client                        // netty客户端
-│       └── ghost-netty-server                    	  // netty服务端
-│       └── ghost-netty-webSocket-server              // netty-webSocket服务端
-				└── html							  // netty-webSocket客户端
+│       └── ghost-netty-client                          // netty客户端
+│       └── ghost-netty-server                    	// netty服务端
+│       └── ghost-netty-webSocket-server                // netty-webSocket服务端
+				└── html		// netty-webSocket客户端
 ├──pom.xml                // 公共依赖
 ```
 
