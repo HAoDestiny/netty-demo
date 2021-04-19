@@ -26,6 +26,8 @@ netty-demo
 
 #### Netty-WebSocket服务端
 + 自定义空闲检测机制(读写操作空闲)
++ ChannelGroup群发信息
++ 本地缓存channelId，用于单独向channel发送信息
 + 注册WebSocket连接
 	+ 手动注册 - 客户端与服务端首次会以FullHttpRequest方式进行握手
 	+ 自动注册 - 在每个channel建立连接进行Initializer时添加addLast进行注册
